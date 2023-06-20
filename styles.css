@@ -38,7 +38,7 @@ h6 {
 
 /* Scrollbar Rounded */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -66,6 +66,7 @@ h6 {
   height: 40px;
 }
 
+/* Slider */
 .swiper-container {
   position: relative;
   width: 100%;
@@ -95,6 +96,7 @@ h6 {
   margin: 0 auto;
 }
 
+/* Lightbox */
 .lightbox {
   position: fixed;
   top: 0;
@@ -111,4 +113,59 @@ h6 {
 .lightbox img {
   max-width: 90%;
   max-height: 90%;
+}
+
+/* About */
+.socials {
+  padding: 1.5rem 0;
+}
+.socials ul li {
+  display: inline-block;
+}
+.socials .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  line-height: 1.6;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 3px #4e98e2;
+  transition: all 500ms ease;
+}
+.socials .ico-circle:hover {
+  background-color: #4e98e2;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+.ul-resect,
+.widget-tags ul,
+.widget-sidebar .list-sidebar,
+.box-comments .list-comments,
+.blog-wrapper .post-meta ul,
+.list-ico,
+.socials ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.list-ico {
+  line-height: 2;
+}
+.list-ico span {
+  color: #4e98e2;
+  margin-right: 10px;
+}
+
+.ico-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #4e98e2;
+  display: block;
 }
