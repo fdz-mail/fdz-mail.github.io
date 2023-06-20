@@ -57,6 +57,12 @@ h6 {
   max-width: 100%;
 }
 
+.about-me-cover-img {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+}
+
 .download-icon {
   background-image: url("https://cdn.discordapp.com/attachments/1056278573113159742/1111145302125183026/download.png");
   background-repeat: no-repeat;
