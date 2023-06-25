@@ -36,6 +36,15 @@ h6 {
   }
 }
 
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: rgb(58, 160, 255);
+}
+
 /* Scrollbar Rounded */
 ::-webkit-scrollbar {
   width: 8px;
